@@ -1052,8 +1052,11 @@
 </library>
 </libraries>
 <attributes>
+<attribute name="REVISION" value="A"/>
+<attribute name="VERSION" value="1.0"/>
 </attributes>
 <variantdefs>
+<variantdef name="Test Variant"/>
 </variantdefs>
 <classes>
 <class number="0" name="default" width="0.2032" drill="0">
@@ -1078,7 +1081,9 @@
 <part name="C3" library="eagle-book" deviceset="CAP_TANT" device="" value="10uF"/>
 <part name="C4" library="eagle-book" deviceset="CAP" device="_0603" value="0.1uF"/>
 <part name="R2" library="eagle-book" deviceset="RES" device="_0603" value="330"/>
-<part name="LED1" library="eagle-book" deviceset="LED" device="_0805" value="AMBER"/>
+<part name="LED1" library="eagle-book" deviceset="LED" device="_0805" value="AMBER">
+<variant name="Test Variant" value="GREEN"/>
+</part>
 <part name="SUPPLY3" library="eagle-book" deviceset="GND" device=""/>
 <part name="SUPPLY4" library="eagle-book" deviceset="GND" device=""/>
 <part name="SUPPLY5" library="eagle-book" deviceset="GND" device=""/>

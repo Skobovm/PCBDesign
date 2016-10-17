@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
@@ -1650,7 +1650,7 @@
 <label x="162.56" y="-48.26" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="AREF" class="0">
+<net name="AREF" class="3">
 <segment>
 <pinref part="JP2" gate="G$1" pin="12"/>
 <wire x1="162.56" y1="-68.58" x2="157.48" y2="-68.58" width="0.1524" layer="91"/>
