@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.025" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -63,12 +63,12 @@ http://www.richtek.com/assets/product_file/RT8289/DS8289-02.pdf</description>
 <smd name="3" x="0.635" y="-2.54" dx="0.4064" dy="1.016" layer="1"/>
 <smd name="2" x="-0.635" y="-2.54" dx="0.4064" dy="1.016" layer="1"/>
 <smd name="1" x="-1.905" y="-2.54" dx="0.4064" dy="1.016" layer="1"/>
-<smd name="P$4" x="1.905" y="-2.54" dx="0.4064" dy="1.016" layer="1"/>
+<smd name="4" x="1.905" y="-2.54" dx="0.4064" dy="1.016" layer="1"/>
 <smd name="6" x="0.635" y="2.54" dx="0.4064" dy="1.016" layer="1"/>
 <smd name="7" x="-0.635" y="2.54" dx="0.4064" dy="1.016" layer="1"/>
 <smd name="8" x="-1.905" y="2.54" dx="0.4064" dy="1.016" layer="1"/>
 <smd name="5" x="1.905" y="2.54" dx="0.4064" dy="1.016" layer="1"/>
-<smd name="P$9" x="0" y="0" dx="2.1336" dy="2.1336" layer="1"/>
+<smd name="9" x="0" y="0" dx="2.1336" dy="2.1336" layer="1"/>
 <wire x1="-2.54" y1="1.905" x2="-2.54" y2="-1.905" width="0.127" layer="51"/>
 <wire x1="-2.54" y1="-1.905" x2="2.54" y2="-1.905" width="0.127" layer="51"/>
 <wire x1="2.54" y1="-1.905" x2="2.54" y2="1.905" width="0.127" layer="51"/>
@@ -103,6 +103,28 @@ http://www.richtek.com/assets/product_file/RT8289/DS8289-02.pdf</description>
 </symbol>
 </symbols>
 <devicesets>
+<deviceset name="RT8289" prefix="U">
+<gates>
+<gate name="G$1" symbol="RT8289" x="7.62" y="-25.4"/>
+</gates>
+<devices>
+<device name="" package="RT8289-SOP-8">
+<connects>
+<connect gate="G$1" pin="BOOT" pad="1"/>
+<connect gate="G$1" pin="EN" pad="5"/>
+<connect gate="G$1" pin="FB" pad="4"/>
+<connect gate="G$1" pin="GND" pad="6 9"/>
+<connect gate="G$1" pin="NC1" pad="2"/>
+<connect gate="G$1" pin="NC2" pad="3"/>
+<connect gate="G$1" pin="SW" pad="8"/>
+<connect gate="G$1" pin="VIN" pad="7"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </drawing>
