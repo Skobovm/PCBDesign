@@ -104,10 +104,15 @@ http://www.richtek.com/assets/product_file/RT8289/DS8289-02.pdf</description>
 </symbols>
 <devicesets>
 <deviceset name="RT8289" prefix="U" uservalue="yes">
-<description>RT8289GSP
-5A Max Output
-5.5V - 32V Input
-1.2V - 26V Output</description>
+<description>&lt;b&gt;RT8289GSP&lt;/b&gt; - Step-Down Regulator "Buck Converter"
+&lt;p&gt;
+Technical Specifications:
+&lt;ul&gt;
+&lt;li&gt;5A Max Output&lt;/li&gt;
+&lt;li&gt;5.5V - 32V Input&lt;/li&gt;
+&lt;li&gt;1.2V - 26V Output&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;</description>
 <gates>
 <gate name="G$1" symbol="RT8289" x="7.62" y="-25.4"/>
 </gates>

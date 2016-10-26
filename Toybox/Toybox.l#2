@@ -128,6 +128,7 @@ http://www.richtek.com/assets/product_file/RT8289/DS8289-02.pdf</description>
 <text x="-15.24" y="10.16" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
 <symbol name="USB">
+<description>USB-A</description>
 <wire x1="-5.08" y1="7.62" x2="-5.08" y2="-5.08" width="0.254" layer="94"/>
 <wire x1="-5.08" y1="-5.08" x2="2.54" y2="-5.08" width="0.254" layer="94"/>
 <wire x1="2.54" y1="-5.08" x2="2.54" y2="7.62" width="0.254" layer="94"/>

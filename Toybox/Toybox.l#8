@@ -103,7 +103,7 @@ http://www.richtek.com/assets/product_file/RT8289/DS8289-02.pdf</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="RT8289" prefix="U">
+<deviceset name="RT8289" prefix="U" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="RT8289" x="7.62" y="-25.4"/>
 </gates>
