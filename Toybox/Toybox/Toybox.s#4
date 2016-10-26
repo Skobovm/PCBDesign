@@ -12716,7 +12716,7 @@ Technical Specifications:
 <wire x1="78.74" y1="147.32" x2="93.98" y2="147.32" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$2" class="0">
+<net name="5V" class="0">
 <segment>
 <pinref part="L1" gate="G$1" pin="2"/>
 <pinref part="R1" gate="G$1" pin="2"/>
@@ -12731,6 +12731,7 @@ Technical Specifications:
 <junction x="137.16" y="147.32"/>
 <wire x1="149.86" y1="147.32" x2="157.48" y2="147.32" width="0.1524" layer="91"/>
 <junction x="149.86" y="147.32"/>
+<label x="157.48" y="147.32" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$3" class="0">

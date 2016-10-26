@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.5" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.05" altunitdist="mm" altunit="mm"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -14,7 +14,7 @@
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
@@ -81,6 +81,8 @@ http://www.richtek.com/assets/product_file/RT8289/DS8289-02.pdf</description>
 <circle x="-1.905" y="-1.27" radius="0.254" width="0.127" layer="21"/>
 </package>
 <package name="USB-A-TH">
+<description>USB-A-TH
+FCI 87520-1010BLF</description>
 <wire x1="-6.55" y1="7" x2="-6.55" y2="-7" width="0.127" layer="51"/>
 <wire x1="6.55" y1="7" x2="6.55" y2="-7" width="0.127" layer="51"/>
 <wire x1="-6.55" y1="7" x2="6.55" y2="7" width="0.127" layer="51"/>
@@ -106,6 +108,27 @@ http://www.richtek.com/assets/product_file/RT8289/DS8289-02.pdf</description>
 <wire x1="7" y1="7.5" x2="7" y2="5" width="0.127" layer="21"/>
 <wire x1="7" y1="1.5" x2="7" y2="-6.5" width="0.127" layer="21"/>
 </package>
+<package name="TO-92-3L">
+<description>TO-92 3L&lt;br/&gt;
+Through-hole 3-lead</description>
+<pad name="2" x="0" y="0" drill="0.5"/>
+<pad name="1" x="-1.27" y="0" drill="0.5"/>
+<pad name="3" x="1.27" y="0" drill="0.5"/>
+<wire x1="-2.25" y1="0.75" x2="2.25" y2="0.75" width="0.127" layer="51"/>
+<wire x1="2.25" y1="0.75" x2="2.25" y2="0" width="0.127" layer="51"/>
+<wire x1="2.25" y1="0" x2="1.5" y2="-0.75" width="0.127" layer="51"/>
+<wire x1="1.5" y1="-0.75" x2="-1.5" y2="-0.75" width="0.127" layer="51"/>
+<wire x1="-1.5" y1="-0.75" x2="-2.25" y2="0" width="0.127" layer="51"/>
+<wire x1="-2.25" y1="0" x2="-2.25" y2="0.75" width="0.127" layer="51"/>
+<text x="-2.54" y="1.27" size="1.27" layer="25">&gt;NAME</text>
+<wire x1="-2.2352" y1="0.7366" x2="2.2352" y2="0.7366" width="0.127" layer="21"/>
+<wire x1="2.2352" y1="0.7366" x2="2.2352" y2="0" width="0.127" layer="21"/>
+<wire x1="2.2352" y1="0" x2="1.4986" y2="-0.7366" width="0.127" layer="21"/>
+<wire x1="1.4986" y1="-0.7366" x2="-1.4986" y2="-0.7366" width="0.127" layer="21"/>
+<wire x1="-1.4986" y1="-0.7366" x2="-2.2352" y2="0" width="0.127" layer="21"/>
+<wire x1="-2.2352" y1="0" x2="-2.2352" y2="0.7366" width="0.127" layer="21"/>
+<text x="-2.54" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="RT8289">
@@ -126,6 +149,19 @@ http://www.richtek.com/assets/product_file/RT8289/DS8289-02.pdf</description>
 <pin name="NC1" x="-20.32" y="25.4" length="middle" direction="nc"/>
 <text x="-14.986" y="39.37" size="1.778" layer="95">&gt;NAME</text>
 <text x="-15.24" y="10.16" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="USB">
+<description>USB-A</description>
+<wire x1="-5.08" y1="7.62" x2="-5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-5.08" x2="2.54" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-5.08" x2="2.54" y2="7.62" width="0.254" layer="94"/>
+<wire x1="2.54" y1="7.62" x2="-5.08" y2="7.62" width="0.254" layer="94"/>
+<pin name="VCC" x="7.62" y="5.08" length="middle" direction="pwr" rot="R180"/>
+<pin name="D-" x="7.62" y="2.54" length="middle" rot="R180"/>
+<pin name="D+" x="7.62" y="0" length="middle" rot="R180"/>
+<pin name="GND" x="7.62" y="-2.54" length="middle" direction="pwr" rot="R180"/>
+<text x="-5.08" y="8.382" size="1.27" layer="94">&gt;NAME</text>
+<text x="-5.08" y="-7.112" size="1.27" layer="94">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -153,6 +189,28 @@ Technical Specifications:
 <connect gate="G$1" pin="NC2" pad="3"/>
 <connect gate="G$1" pin="SW" pad="8"/>
 <connect gate="G$1" pin="VIN" pad="7"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="USB-A-TH" prefix="X">
+<description>USB Type A Female Connector&lt;br/&gt;
+4 pin through hole&lt;br/&gt;
+FCI 87520-1010BLF&lt;br/&gt;
+http://datasheet.octopart.com/87520-1010BLF-FCI-datasheet-41567514.pdf</description>
+<gates>
+<gate name="G$1" symbol="USB" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="USB-A-TH">
+<connects>
+<connect gate="G$1" pin="D+" pad="3"/>
+<connect gate="G$1" pin="D-" pad="2"/>
+<connect gate="G$1" pin="GND" pad="4"/>
+<connect gate="G$1" pin="VCC" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>

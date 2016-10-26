@@ -81,6 +81,8 @@ http://www.richtek.com/assets/product_file/RT8289/DS8289-02.pdf</description>
 <circle x="-1.905" y="-1.27" radius="0.254" width="0.127" layer="21"/>
 </package>
 <package name="USB-A-TH">
+<description>USB-A-TH
+FCI 87520-1010BLF</description>
 <wire x1="-6.55" y1="7" x2="-6.55" y2="-7" width="0.127" layer="51"/>
 <wire x1="6.55" y1="7" x2="6.55" y2="-7" width="0.127" layer="51"/>
 <wire x1="-6.55" y1="7" x2="6.55" y2="7" width="0.127" layer="51"/>
@@ -105,6 +107,27 @@ http://www.richtek.com/assets/product_file/RT8289/DS8289-02.pdf</description>
 <wire x1="-7" y1="7.5" x2="7" y2="7.5" width="0.127" layer="21"/>
 <wire x1="7" y1="7.5" x2="7" y2="5" width="0.127" layer="21"/>
 <wire x1="7" y1="1.5" x2="7" y2="-6.5" width="0.127" layer="21"/>
+</package>
+<package name="TO-92-3L">
+<description>TO-92 3L&lt;br/&gt;
+Through-hole 3-lead</description>
+<pad name="2" x="0" y="0" drill="0.5"/>
+<pad name="1" x="-1.27" y="0" drill="0.5"/>
+<pad name="3" x="1.27" y="0" drill="0.5"/>
+<wire x1="-2.25" y1="0.75" x2="2.25" y2="0.75" width="0.127" layer="51"/>
+<wire x1="2.25" y1="0.75" x2="2.25" y2="0" width="0.127" layer="51"/>
+<wire x1="2.25" y1="0" x2="1.5" y2="-0.75" width="0.127" layer="51"/>
+<wire x1="1.5" y1="-0.75" x2="-1.5" y2="-0.75" width="0.127" layer="51"/>
+<wire x1="-1.5" y1="-0.75" x2="-2.25" y2="0" width="0.127" layer="51"/>
+<wire x1="-2.25" y1="0" x2="-2.25" y2="0.75" width="0.127" layer="51"/>
+<text x="-2.54" y="1.27" size="1.27" layer="25">&gt;NAME</text>
+<wire x1="-2.2352" y1="0.7366" x2="2.2352" y2="0.7366" width="0.127" layer="21"/>
+<wire x1="2.2352" y1="0.7366" x2="2.2352" y2="0" width="0.127" layer="21"/>
+<wire x1="2.2352" y1="0" x2="1.4986" y2="-0.7366" width="0.127" layer="21"/>
+<wire x1="1.4986" y1="-0.7366" x2="-1.4986" y2="-0.7366" width="0.127" layer="21"/>
+<wire x1="-1.4986" y1="-0.7366" x2="-2.2352" y2="0" width="0.127" layer="21"/>
+<wire x1="-2.2352" y1="0" x2="-2.2352" y2="0.7366" width="0.127" layer="21"/>
+<text x="-2.54" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
 </package>
 </packages>
 <symbols>
@@ -140,6 +163,20 @@ http://www.richtek.com/assets/product_file/RT8289/DS8289-02.pdf</description>
 <text x="-5.08" y="8.382" size="1.27" layer="94">&gt;NAME</text>
 <text x="-5.08" y="-7.112" size="1.27" layer="94">&gt;VALUE</text>
 </symbol>
+<symbol name="US1881">
+<description>US1881</description>
+<wire x1="-5.08" y1="5.08" x2="-5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-5.08" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-5.08" x2="5.08" y2="5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="5.08" x2="-5.08" y2="5.08" width="0.254" layer="94"/>
+<pin name="P$1" x="-10.16" y="0" visible="off" length="middle" direction="pwr"/>
+<pin name="P$2" x="0" y="-10.16" visible="off" length="middle" direction="pwr" rot="R90"/>
+<pin name="P$3" x="10.16" y="0" visible="off" length="middle" rot="R180"/>
+<text x="-3.302" y="-1.524" size="1.27" layer="97" rot="R90">VDD</text>
+<text x="1.778" y="-3.302" size="1.27" layer="97" rot="R180">GND</text>
+<text x="3.556" y="2.032" size="1.27" layer="97" rot="R270">OUT</text>
+<text x="-5.08" y="6.35" size="1.27" layer="94">&gt;NAME</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="RT8289" prefix="U" uservalue="yes">
@@ -166,6 +203,28 @@ Technical Specifications:
 <connect gate="G$1" pin="NC2" pad="3"/>
 <connect gate="G$1" pin="SW" pad="8"/>
 <connect gate="G$1" pin="VIN" pad="7"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="USB-A-TH" prefix="X">
+<description>USB Type A Female Connector&lt;br/&gt;
+4 pin through hole&lt;br/&gt;
+FCI 87520-1010BLF&lt;br/&gt;
+http://datasheet.octopart.com/87520-1010BLF-FCI-datasheet-41567514.pdf</description>
+<gates>
+<gate name="G$1" symbol="USB" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="USB-A-TH">
+<connects>
+<connect gate="G$1" pin="D+" pad="3"/>
+<connect gate="G$1" pin="D-" pad="2"/>
+<connect gate="G$1" pin="GND" pad="4"/>
+<connect gate="G$1" pin="VCC" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
