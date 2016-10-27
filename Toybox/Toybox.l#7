@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.5" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -108,26 +108,73 @@ FCI 87520-1010BLF</description>
 <wire x1="7" y1="7.5" x2="7" y2="5" width="0.127" layer="21"/>
 <wire x1="7" y1="1.5" x2="7" y2="-6.5" width="0.127" layer="21"/>
 </package>
+<package name="TO-92-3L">
+<description>TO-92 3L&lt;br/&gt;
+Through-hole 3-lead</description>
+<pad name="2" x="0" y="0" drill="0.5"/>
+<pad name="1" x="-1.27" y="0" drill="0.5"/>
+<pad name="3" x="1.27" y="0" drill="0.5"/>
+<wire x1="-2.25" y1="0.75" x2="2.25" y2="0.75" width="0.127" layer="51"/>
+<wire x1="2.25" y1="0.75" x2="2.25" y2="0" width="0.127" layer="51"/>
+<wire x1="2.25" y1="0" x2="1.5" y2="-0.75" width="0.127" layer="51"/>
+<wire x1="1.5" y1="-0.75" x2="-1.5" y2="-0.75" width="0.127" layer="51"/>
+<wire x1="-1.5" y1="-0.75" x2="-2.25" y2="0" width="0.127" layer="51"/>
+<wire x1="-2.25" y1="0" x2="-2.25" y2="0.75" width="0.127" layer="51"/>
+<text x="-2.54" y="1.27" size="1.27" layer="25">&gt;NAME</text>
+<wire x1="-2.2352" y1="0.7366" x2="2.2352" y2="0.7366" width="0.127" layer="21"/>
+<wire x1="2.2352" y1="0.7366" x2="2.2352" y2="0" width="0.127" layer="21"/>
+<wire x1="2.2352" y1="0" x2="1.4986" y2="-0.7366" width="0.127" layer="21"/>
+<wire x1="1.4986" y1="-0.7366" x2="-1.4986" y2="-0.7366" width="0.127" layer="21"/>
+<wire x1="-1.4986" y1="-0.7366" x2="-2.2352" y2="0" width="0.127" layer="21"/>
+<wire x1="-2.2352" y1="0" x2="-2.2352" y2="0.7366" width="0.127" layer="21"/>
+<text x="-2.54" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+<package name="SRN1060">
+<smd name="1" x="-3.3" y="0" dx="10.2" dy="3.5" layer="1" rot="R90"/>
+<smd name="2" x="3.3" y="0" dx="10.2" dy="3.5" layer="1" rot="R90"/>
+<wire x1="-2.5" y1="5" x2="2.5" y2="5" width="0.127" layer="51"/>
+<wire x1="2.5" y1="5" x2="5" y2="2.5" width="0.127" layer="51" curve="-90"/>
+<wire x1="5" y1="2.5" x2="5" y2="1.5" width="0.127" layer="51"/>
+<wire x1="5" y1="1.5" x2="4" y2="0.5" width="0.127" layer="51"/>
+<wire x1="4" y1="0.5" x2="4" y2="-0.5" width="0.127" layer="51"/>
+<wire x1="4" y1="-0.5" x2="5" y2="-1.5" width="0.127" layer="51"/>
+<wire x1="5" y1="-1.5" x2="5" y2="-2.5" width="0.127" layer="51"/>
+<wire x1="5" y1="-2.5" x2="2.5" y2="-5" width="0.127" layer="51" curve="-90"/>
+<wire x1="2.5" y1="-5" x2="-2.5" y2="-5" width="0.127" layer="51"/>
+<wire x1="-2.5" y1="-5" x2="-5" y2="-2.5" width="0.127" layer="51" curve="-90"/>
+<wire x1="-5" y1="-2.5" x2="-5" y2="-1.5" width="0.127" layer="51"/>
+<wire x1="-5" y1="-1.5" x2="-4" y2="-0.5" width="0.127" layer="51"/>
+<wire x1="-4" y1="-0.5" x2="-4" y2="0.5" width="0.127" layer="51"/>
+<wire x1="-4" y1="0.5" x2="-5" y2="1.5" width="0.127" layer="51"/>
+<wire x1="-5" y1="1.5" x2="-5" y2="2.5" width="0.127" layer="51"/>
+<wire x1="-5" y1="2.5" x2="-2.5" y2="5" width="0.127" layer="51" curve="-90"/>
+<wire x1="-1.65" y1="5.5" x2="1.65" y2="5.5" width="0.127" layer="21"/>
+<wire x1="-1.65" y1="-5.5" x2="1.65" y2="-5.5" width="0.127" layer="21"/>
+<wire x1="-5.5" y1="5" x2="-5.5" y2="-5" width="0.127" layer="21"/>
+<wire x1="5.5" y1="5" x2="5.5" y2="-5" width="0.127" layer="21"/>
+<text x="-5.5" y="6.5" size="1.27" layer="25">&gt;NAME</text>
+<text x="-5.5" y="-8" size="1.27" layer="27">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="RT8289">
 <description>RT8289
 Richtek 5A, 32V, 500kHz Step-Down Converter
 http://www.richtek.com/assets/product_file/RT8289/DS8289-02.pdf</description>
-<pin name="VIN" x="-20.32" y="35.56" length="middle" direction="pwr"/>
-<pin name="EN" x="-20.32" y="30.48" length="middle" direction="in"/>
-<pin name="GND" x="-20.32" y="15.24" length="middle" direction="pwr"/>
-<pin name="FB" x="5.08" y="15.24" length="middle" direction="in" rot="R180"/>
-<pin name="SW" x="5.08" y="25.4" length="middle" direction="sup" rot="R180"/>
-<pin name="BOOT" x="5.08" y="35.56" length="middle" rot="R180"/>
-<wire x1="-15.24" y1="38.1" x2="-15.24" y2="12.7" width="0.254" layer="94"/>
-<wire x1="-15.24" y1="12.7" x2="0" y2="12.7" width="0.254" layer="94"/>
-<wire x1="0" y1="12.7" x2="0" y2="38.1" width="0.254" layer="94"/>
-<wire x1="0" y1="38.1" x2="-15.24" y2="38.1" width="0.254" layer="94"/>
-<pin name="NC2" x="-20.32" y="20.32" length="middle" direction="nc"/>
-<pin name="NC1" x="-20.32" y="25.4" length="middle" direction="nc"/>
-<text x="-14.986" y="39.37" size="1.778" layer="95">&gt;NAME</text>
-<text x="-15.24" y="10.16" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="VIN" x="-12.7" y="10.16" length="middle" direction="pwr"/>
+<pin name="EN" x="-12.7" y="5.08" length="middle" direction="in"/>
+<pin name="GND" x="-12.7" y="-10.16" length="middle" direction="pwr"/>
+<pin name="FB" x="12.7" y="-10.16" length="middle" direction="in" rot="R180"/>
+<pin name="SW" x="12.7" y="0" length="middle" direction="sup" rot="R180"/>
+<pin name="BOOT" x="12.7" y="10.16" length="middle" rot="R180"/>
+<wire x1="-7.62" y1="12.7" x2="-7.62" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-12.7" x2="7.62" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-12.7" x2="7.62" y2="12.7" width="0.254" layer="94"/>
+<wire x1="7.62" y1="12.7" x2="-7.62" y2="12.7" width="0.254" layer="94"/>
+<pin name="NC2" x="-12.7" y="-5.08" length="middle" direction="nc"/>
+<pin name="NC1" x="-12.7" y="0" length="middle" direction="nc"/>
+<text x="-7.366" y="13.97" size="1.778" layer="95">&gt;NAME</text>
+<text x="-7.62" y="-15.24" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
 <symbol name="USB">
 <description>USB-A</description>
@@ -141,6 +188,20 @@ http://www.richtek.com/assets/product_file/RT8289/DS8289-02.pdf</description>
 <pin name="GND" x="7.62" y="-2.54" length="middle" direction="pwr" rot="R180"/>
 <text x="-5.08" y="8.382" size="1.27" layer="94">&gt;NAME</text>
 <text x="-5.08" y="-7.112" size="1.27" layer="94">&gt;VALUE</text>
+</symbol>
+<symbol name="US1881">
+<description>US1881</description>
+<wire x1="-5.08" y1="5.08" x2="-5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-5.08" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-5.08" x2="5.08" y2="5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="5.08" x2="-5.08" y2="5.08" width="0.254" layer="94"/>
+<pin name="VDD" x="-10.16" y="0" visible="off" length="middle" direction="pwr"/>
+<pin name="GND" x="0" y="-10.16" visible="off" length="middle" direction="pwr" rot="R90"/>
+<pin name="OUT" x="10.16" y="0" visible="off" length="middle" rot="R180"/>
+<text x="-3.302" y="-1.524" size="1.27" layer="97" rot="R90">VDD</text>
+<text x="1.778" y="-3.302" size="1.27" layer="97" rot="R180">GND</text>
+<text x="3.556" y="2.032" size="1.27" layer="97" rot="R270">OUT</text>
+<text x="-5.08" y="6.35" size="1.27" layer="94">&gt;NAME</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -190,6 +251,32 @@ http://datasheet.octopart.com/87520-1010BLF-FCI-datasheet-41567514.pdf</descript
 <connect gate="G$1" pin="D-" pad="2"/>
 <connect gate="G$1" pin="GND" pad="4"/>
 <connect gate="G$1" pin="VCC" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="US1881" prefix="U">
+<description>&lt;b&gt;US1881 - Hall Effect Sensor&lt;/b&gt;
+
+&lt;p&gt;
+Specifications:&lt;br/&gt;
+Vdd: 3.5V - 28V&lt;br/&gt;
+Idd: 5mA max
+&lt;/p&gt;
+
+Datasheet: http://www.digikey.com/product-search/en?mpart=US1881EUA-AAA-000-BU&amp;vendor=413</description>
+<gates>
+<gate name="G$1" symbol="US1881" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="TO-92-3L">
+<connects>
+<connect gate="G$1" pin="GND" pad="3"/>
+<connect gate="G$1" pin="OUT" pad="2"/>
+<connect gate="G$1" pin="VDD" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>

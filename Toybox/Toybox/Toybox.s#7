@@ -13333,13 +13333,6 @@ Footprint designed for Sullins SBH11-NBPC-D20-SM-BK</description>
 <label x="85.852" y="15.24" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="HALL_SENSOR" class="0">
-<segment>
-<pinref part="J1" gate="G$1" pin="GP22"/>
-<wire x1="76.2" y1="25.4" x2="83.82" y2="25.4" width="0.1524" layer="91"/>
-<label x="85.344" y="25.654" size="1.778" layer="95"/>
-</segment>
-</net>
 </nets>
 </sheet>
 </sheets>
