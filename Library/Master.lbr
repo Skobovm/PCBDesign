@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -110,6 +110,7 @@
 </polygon>
 <text x="-2.5" y="3.5" size="1.27" layer="25">&gt;NAME</text>
 <smd name="21" x="0" y="0" dx="1.27" dy="0.635" layer="1"/>
+<circle x="-1.905" y="1.905" radius="0.254" width="0.127" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -176,7 +177,7 @@ Datasheet: http://www.yageo.com/documents/recent/An_Ceramic_915_1204_CHE_0.pdf</
 </device>
 </devices>
 </deviceset>
-<deviceset name="SI4468">
+<deviceset name="SI4468" prefix="U">
 <description>&lt;b&gt;SI4468 - Low Current RF Transciever&lt;/b&gt;
 &lt;p&gt;
 Specification:&lt;br/&gt;
