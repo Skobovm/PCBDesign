@@ -7418,15 +7418,18 @@ INDUCTOR POWER 3.3UH 4.0A SMD&lt;br&gt;
 <classes>
 <class number="0" name="default" width="0" drill="0">
 </class>
+<class number="1" name="50ohm" width="1.26" drill="0">
+<clearance class="1" value="0.25"/>
+</class>
 </classes>
 <parts>
 <part name="U1" library="Master" deviceset="SI4468" device=""/>
 <part name="AE1" library="Master" deviceset="ANT1204LL05R0915A" device=""/>
 <part name="J1" library="SparkFun-Connectors" deviceset="M05X2" device="PTH"/>
 <part name="C1" library="resistor" deviceset="C-EU" device="C0603" value="2.2uF"/>
-<part name="C2" library="resistor" deviceset="C-EU" device="C0603" value="100nF"/>
+<part name="C2" library="resistor" deviceset="C-EU" device="C0603" value="220nF"/>
 <part name="C3" library="resistor" deviceset="C-EU" device="C0603" value="100pF"/>
-<part name="C4" library="resistor" deviceset="C-EU" device="C0603" value="220pF"/>
+<part name="C4" library="resistor" deviceset="C-EU" device="C0603" value="100pF"/>
 <part name="C5" library="resistor" deviceset="C-EU" device="C0603" value="100nF"/>
 <part name="CC1" library="resistor" deviceset="C-EU" device="C0603" value="56pF"/>
 <part name="CM2" library="resistor" deviceset="C-EU" device="C0603" value="4.7pF"/>
@@ -7841,7 +7844,7 @@ INDUCTOR POWER 3.3UH 4.0A SMD&lt;br&gt;
 <wire x1="127" y1="71.12" x2="132.08" y2="71.12" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$9" class="0">
+<net name="N$9" class="1">
 <segment>
 <pinref part="LS2" gate="G$1" pin="2"/>
 <pinref part="CC1" gate="G$1" pin="1"/>
