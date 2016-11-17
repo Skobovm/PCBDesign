@@ -68,6 +68,9 @@
 *.pro
 *.job
 
+# Fab submission
+*.zip
+
 # CAM files
 *.$$$
 *.cmp
