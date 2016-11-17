@@ -167,24 +167,39 @@
 <smd name="18" x="0" y="1.975" dx="0.7" dy="0.25" layer="1" rot="R90"/>
 <smd name="17" x="0.5" y="1.975" dx="0.7" dy="0.25" layer="1" rot="R90"/>
 <smd name="16" x="1" y="1.975" dx="0.7" dy="0.25" layer="1" rot="R90"/>
-<polygon width="0.127" layer="1">
+<polygon width="0.1778" layer="1">
+<vertex x="-1.2" y="1.2"/>
+<vertex x="-1.2" y="-1.2"/>
+<vertex x="1.2" y="-1.2"/>
+<vertex x="1.2" y="1.2"/>
+</polygon>
+<text x="-2.5" y="3.5" size="1.27" layer="25">&gt;NAME</text>
+<smd name="21" x="0" y="0" dx="1.27" dy="0.635" layer="1" stop="no" cream="no"/>
+<circle x="-1.905" y="1.905" radius="0.254" width="0.127" layer="21"/>
+<polygon width="0.127" layer="29">
 <vertex x="-1.3" y="1.3"/>
 <vertex x="-1.3" y="-1.3"/>
 <vertex x="1.3" y="-1.3"/>
 <vertex x="1.3" y="1.3"/>
 </polygon>
-<text x="-2.5" y="3.5" size="1.27" layer="25">&gt;NAME</text>
-<smd name="21" x="0" y="0" dx="1.27" dy="0.635" layer="1"/>
-<circle x="-1.905" y="1.905" radius="0.254" width="0.127" layer="21"/>
+<circle x="0" y="0" radius="0.25" width="0" layer="31"/>
+<circle x="-0.85" y="0" radius="0.25" width="0" layer="31"/>
+<circle x="0.85" y="0" radius="0.25" width="0" layer="31"/>
+<circle x="0.85" y="-0.85" radius="0.25" width="0" layer="31"/>
+<circle x="0" y="-0.85" radius="0.25" width="0" layer="31"/>
+<circle x="-0.85" y="-0.85" radius="0.25" width="0" layer="31"/>
+<circle x="-0.85" y="0.85" radius="0.25" width="0" layer="31"/>
+<circle x="0" y="0.85" radius="0.25" width="0" layer="31"/>
+<circle x="0.85" y="0.85" radius="0.25" width="0" layer="31"/>
 </package>
 <package name="ANT-1204">
-<polygon width="0.127" layer="1">
+<polygon width="0.1524" layer="1">
 <vertex x="-7" y="2.125"/>
 <vertex x="-7" y="-2.125"/>
 <vertex x="-5.2" y="-2.125"/>
 <vertex x="-5.2" y="2.125"/>
 </polygon>
-<polygon width="0.127" layer="1">
+<polygon width="0.1524" layer="1">
 <vertex x="7" y="2.125"/>
 <vertex x="7" y="-2.125"/>
 <vertex x="5.2" y="-2.125"/>
@@ -200,6 +215,30 @@
 <text x="-7" y="3" size="1.27" layer="25">&gt;NAME</text>
 <wire x1="-5" y1="2" x2="5" y2="2" width="0.127" layer="51"/>
 <wire x1="5" y1="-2" x2="-5" y2="-2" width="0.127" layer="51"/>
+<polygon width="0.127" layer="29">
+<vertex x="-7.05" y="2.2"/>
+<vertex x="-7.05" y="-2.2"/>
+<vertex x="-5.15" y="-2.2"/>
+<vertex x="-5.15" y="2.2"/>
+</polygon>
+<polygon width="0.127" layer="31">
+<vertex x="-7.05" y="2.2"/>
+<vertex x="-7.05" y="-2.2"/>
+<vertex x="-5.15" y="-2.2"/>
+<vertex x="-5.15" y="2.2"/>
+</polygon>
+<polygon width="0.127" layer="31">
+<vertex x="5.2" y="2.1"/>
+<vertex x="7" y="2.1"/>
+<vertex x="7" y="-2.1"/>
+<vertex x="5.2" y="-2.1"/>
+</polygon>
+<polygon width="0.127" layer="29">
+<vertex x="5.15" y="2.2"/>
+<vertex x="7.05" y="2.2"/>
+<vertex x="7.05" y="-2.2"/>
+<vertex x="5.15" y="-2.2"/>
+</polygon>
 </package>
 <package name="ABM10">
 <smd name="4" x="-0.825" y="0.625" dx="0.9" dy="0.8" layer="1"/>
@@ -6697,7 +6736,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
 <circle x="0" y="0" radius="0.127" width="0.127" layer="21"/>
 <circle x="0" y="0" radius="0.0254" width="0.127" layer="21"/>
-<circle x="0" y="0" radius="0.218496875" width="0.127" layer="21"/>
+<circle x="0" y="0" radius="0.127" width="0.127" layer="21"/>
 </package>
 <package name="CR54">
 <description>From: http://www.niccomp.com/catalog/npis_ls.pdf</description>
@@ -7866,6 +7905,12 @@ INDUCTOR POWER 3.3UH 4.0A SMD&lt;br&gt;
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="103,1,185.42,66.04,U1,NC,GND,,,"/>
+<approved hash="104,1,185.42,63.5,U1,VDD,3V3,,,"/>
+<approved hash="104,1,185.42,60.96,U1,VDD,N$7,,,"/>
+<approved hash="113,1,203.2,11.6247,J1,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 </eagle>
