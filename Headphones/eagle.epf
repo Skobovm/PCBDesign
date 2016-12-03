@@ -1,7 +1,7 @@
 [Eagle]
 Version="07 07 00"
 Platform="Windows"
-Serial="62191E841E-LSR-WLM-1EL"
+Serial="742A230785-LSR-WLM-1ES"
 Globals="Globals"
 Desktop="Desktop"
 
@@ -348,7 +348,6 @@ UsedLibrary="C:/EAGLE-7.7.0/lbr/xilinx-xc9.lbr"
 UsedLibrary="C:/EAGLE-7.7.0/lbr/xilinx-xcv.lbr"
 UsedLibrary="C:/EAGLE-7.7.0/lbr/zetex.lbr"
 UsedLibrary="C:/EAGLE-7.7.0/lbr/zilog.lbr"
-UsedLibrary="C:/Courses/PCBDesign/Toybox/Toybox.lbr"
 UsedLibrary="C:/EAGLE-7.7.0/lbr/sparkfun/GeekAmmo.lbr"
 UsedLibrary="C:/EAGLE-7.7.0/lbr/sparkfun/LilyPad-Wearables.lbr"
 UsedLibrary="C:/EAGLE-7.7.0/lbr/sparkfun/SparkFun-Aesthetics.lbr"
@@ -369,14 +368,13 @@ UsedLibrary="C:/EAGLE-7.7.0/lbr/sparkfun/SparkFun-Retired.lbr"
 UsedLibrary="C:/EAGLE-7.7.0/lbr/sparkfun/SparkFun-RF.lbr"
 UsedLibrary="C:/EAGLE-7.7.0/lbr/sparkfun/SparkFun-Sensors.lbr"
 UsedLibrary="C:/EAGLE-7.7.0/lbr/sparkfun/User-Submitted.lbr"
-UsedLibrary="C:/Courses/PCBDesign/Library/Master.lbr"
 
 [Win_1]
 Type="Control Panel"
-Loc="386 0 1585 1159"
-State=0
+Loc="150 0 1349 688"
+State=2
 Number=0
 
 [Desktop]
-Screen="3120 1920"
+Screen="1366 768"
 Window="Win_1"
