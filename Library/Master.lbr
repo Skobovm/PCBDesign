@@ -621,6 +621,109 @@ SOT-753</description>
 <wire x1="5" y1="5.2" x2="-5" y2="5.2" width="0.127" layer="48"/>
 <wire x1="-5" y1="5.2" x2="-5" y2="-4.8" width="0.127" layer="48"/>
 </package>
+<package name="TE84952-6-FFC">
+<description>TE Connectivity AMP Connector TE84952-6</description>
+<smd name="1" x="-2.5" y="0" dx="2" dy="0.61" layer="1" rot="R90"/>
+<smd name="2" x="-1.5" y="0" dx="2" dy="0.61" layer="1" rot="R90"/>
+<smd name="3" x="-0.5" y="0" dx="2" dy="0.61" layer="1" rot="R90"/>
+<smd name="4" x="0.5" y="0" dx="2" dy="0.61" layer="1" rot="R90"/>
+<smd name="5" x="1.5" y="0" dx="2" dy="0.61" layer="1" rot="R90"/>
+<smd name="6" x="2.5" y="0" dx="2" dy="0.61" layer="1" rot="R90"/>
+<smd name="P$7" x="-5.49" y="-2.8" dx="2.68" dy="3.6" layer="1"/>
+<smd name="P$8" x="5.49" y="-2.8" dx="2.68" dy="3.6" layer="1"/>
+<wire x1="-6.9" y1="-6.6" x2="-6.9" y2="-5.7" width="0.127" layer="48"/>
+<wire x1="-5.4" y1="-4.7" x2="5.5" y2="-4.7" width="0.127" layer="48"/>
+<wire x1="6.9" y1="-5.6" x2="6.9" y2="-6.6" width="0.127" layer="48"/>
+<wire x1="6.9" y1="-6.6" x2="5.5" y2="-6.6" width="0.127" layer="48"/>
+<wire x1="5.5" y1="-6.6" x2="-5.4" y2="-6.6" width="0.127" layer="48"/>
+<wire x1="-5.4" y1="-6.6" x2="-6.9" y2="-6.6" width="0.127" layer="48"/>
+<wire x1="-6.9" y1="-5.7" x2="-5.4" y2="-5.7" width="0.127" layer="48"/>
+<wire x1="-5.4" y1="-5.7" x2="-5.4" y2="-4.7" width="0.127" layer="48"/>
+<wire x1="5.5" y1="-4.7" x2="5.5" y2="-5.6" width="0.127" layer="48"/>
+<wire x1="5.5" y1="-5.6" x2="6.9" y2="-5.6" width="0.127" layer="48"/>
+<wire x1="-6.9" y1="-8.3" x2="-5.8" y2="-8.3" width="0.127" layer="48"/>
+<wire x1="-5.1" y1="-8.3" x2="-4" y2="-8.3" width="0.127" layer="48"/>
+<wire x1="-3.3" y1="-8.3" x2="-2.2" y2="-8.3" width="0.127" layer="48"/>
+<wire x1="-1.5" y1="-8.3" x2="-0.4" y2="-8.3" width="0.127" layer="48"/>
+<wire x1="2.2" y1="-8.3" x2="3.3" y2="-8.3" width="0.127" layer="48"/>
+<wire x1="4" y1="-8.3" x2="5.1" y2="-8.3" width="0.127" layer="48"/>
+<wire x1="5.8" y1="-8.3" x2="7" y2="-8.3" width="0.127" layer="48"/>
+<wire x1="0.4" y1="-8.3" x2="1.5" y2="-8.3" width="0.127" layer="48"/>
+<wire x1="-6.9" y1="-8.3" x2="-6.9" y2="-7.5" width="0.127" layer="48"/>
+<wire x1="-6.9" y1="-7.5" x2="-5.4" y2="-7.5" width="0.127" layer="48"/>
+<wire x1="-5.4" y1="-6.6" x2="-5.4" y2="-7.5" width="0.127" layer="48"/>
+<wire x1="7" y1="-8.3" x2="7" y2="-7.5" width="0.127" layer="48"/>
+<wire x1="7" y1="-7.5" x2="5.5" y2="-7.5" width="0.127" layer="48"/>
+<wire x1="5.5" y1="-7.5" x2="5.5" y2="-6.6" width="0.127" layer="48"/>
+<wire x1="-5.4" y1="-4.7" x2="-5.4" y2="-0.3" width="0.127" layer="48"/>
+<wire x1="-5.4" y1="-0.3" x2="5.5" y2="-0.3" width="0.127" layer="48"/>
+<wire x1="5.5" y1="-0.3" x2="5.5" y2="-4.7" width="0.127" layer="48"/>
+<text x="-9.1" y="1.2" size="1.27" layer="48" font="vector">&gt;NAME</text>
+</package>
+<package name="ABS07-LR">
+<description>AB07-LR</description>
+<smd name="1" x="-1.3" y="0" dx="1.9" dy="1.1" layer="1" rot="R90"/>
+<smd name="2" x="1.2" y="0" dx="1.9" dy="1.1" layer="1" rot="R90"/>
+<wire x1="-0.4" y1="0.9" x2="-0.4" y2="0.1" width="0.127" layer="21"/>
+<wire x1="-2.2" y1="1.3" x2="-2.2" y2="-1.3" width="0.127" layer="21"/>
+<wire x1="-2.2" y1="-1.3" x2="2.1" y2="-1.3" width="0.127" layer="21"/>
+<wire x1="2.1" y1="-1.3" x2="2.1" y2="1.3" width="0.127" layer="21"/>
+<wire x1="2.1" y1="1.3" x2="-2.2" y2="1.3" width="0.127" layer="21"/>
+<text x="-2.2" y="2.1" size="1.27" layer="25" font="vector">&gt;NAME</text>
+</package>
+<package name="QFN20-NXP-.4">
+<description>20-terminal QFN .4mm pitch</description>
+<smd name="8" x="0" y="-1.35" dx="0.2" dy="0.5" layer="1"/>
+<smd name="7" x="-0.4" y="-1.35" dx="0.2" dy="0.5" layer="1"/>
+<smd name="6" x="-0.8" y="-1.35" dx="0.2" dy="0.5" layer="1"/>
+<smd name="9" x="0.4" y="-1.35" dx="0.2" dy="0.5" layer="1"/>
+<smd name="10" x="0.8" y="-1.35" dx="0.2" dy="0.5" layer="1"/>
+<smd name="18" x="0" y="1.35" dx="0.2" dy="0.5" layer="1"/>
+<smd name="19" x="-0.4" y="1.35" dx="0.2" dy="0.5" layer="1"/>
+<smd name="20" x="-0.8" y="1.35" dx="0.2" dy="0.5" layer="1"/>
+<smd name="17" x="0.4" y="1.35" dx="0.2" dy="0.5" layer="1"/>
+<smd name="16" x="0.8" y="1.35" dx="0.2" dy="0.5" layer="1"/>
+<smd name="13" x="1.35" y="0" dx="0.2" dy="0.5" layer="1" rot="R90"/>
+<smd name="12" x="1.35" y="-0.4" dx="0.2" dy="0.5" layer="1" rot="R90"/>
+<smd name="11" x="1.35" y="-0.8" dx="0.2" dy="0.5" layer="1" rot="R90"/>
+<smd name="14" x="1.35" y="0.4" dx="0.2" dy="0.5" layer="1" rot="R90"/>
+<smd name="15" x="1.35" y="0.8" dx="0.2" dy="0.5" layer="1" rot="R90"/>
+<smd name="3" x="-1.35" y="0" dx="0.2" dy="0.5" layer="1" rot="R90"/>
+<smd name="4" x="-1.35" y="-0.4" dx="0.2" dy="0.5" layer="1" rot="R90"/>
+<smd name="5" x="-1.35" y="-0.8" dx="0.2" dy="0.5" layer="1" rot="R90"/>
+<smd name="2" x="-1.35" y="0.4" dx="0.2" dy="0.5" layer="1" rot="R90"/>
+<smd name="1" x="-1.35" y="0.8" dx="0.2" dy="0.5" layer="1" rot="R90"/>
+<wire x1="-1.5" y1="1.5" x2="-1.5" y2="-1.5" width="0.127" layer="48"/>
+<wire x1="-1.5" y1="-1.5" x2="1.5" y2="-1.5" width="0.127" layer="48"/>
+<wire x1="1.5" y1="-1.5" x2="1.5" y2="1.5" width="0.127" layer="48"/>
+<wire x1="1.5" y1="1.5" x2="-1.5" y2="1.5" width="0.127" layer="48"/>
+<wire x1="-1.9" y1="1.9" x2="-1.9" y2="-1.9" width="0.127" layer="21"/>
+<wire x1="-1.9" y1="-1.9" x2="1.9" y2="-1.9" width="0.127" layer="21"/>
+<wire x1="1.9" y1="-1.9" x2="1.9" y2="1.9" width="0.127" layer="21"/>
+<wire x1="1.9" y1="1.9" x2="-1.9" y2="1.9" width="0.127" layer="21"/>
+<wire x1="-2.4" y1="1.5" x2="-2.4" y2="2.4" width="0.127" layer="21"/>
+<wire x1="-2.4" y1="2.4" x2="-1.5" y2="2.4" width="0.127" layer="21"/>
+<smd name="21" x="0" y="0" dx="1.7" dy="1.7" layer="1" cream="no"/>
+<circle x="0.5" y="0.5" radius="0.1" width="0.28" layer="31"/>
+<circle x="-0.5" y="0.5" radius="0.1" width="0.28" layer="31"/>
+<circle x="-0.5" y="-0.5" radius="0.1" width="0.28" layer="31"/>
+<circle x="0.5" y="-0.5" radius="0.1" width="0.28" layer="31"/>
+<circle x="0" y="0" radius="0.1" width="0.28" layer="31"/>
+<text x="-3" y="3" size="1.27" layer="25" font="vector">&gt;NAME</text>
+</package>
+<package name="SOT-353">
+<description>SOT-353; SC-70-5; 5-TSSOP</description>
+<smd name="1" x="-0.95" y="0.65" dx="0.5" dy="0.4" layer="1"/>
+<smd name="2" x="-0.95" y="0" dx="0.5" dy="0.4" layer="1"/>
+<smd name="3" x="-0.95" y="-0.65" dx="0.5" dy="0.4" layer="1"/>
+<smd name="5" x="0.95" y="0.65" dx="0.5" dy="0.4" layer="1"/>
+<smd name="4" x="0.95" y="-0.65" dx="0.5" dy="0.4" layer="1"/>
+<wire x1="-0.6" y1="1.1" x2="0.6" y2="1.1" width="0.127" layer="21"/>
+<wire x1="-0.6" y1="-1.1" x2="0.6" y2="-1.1" width="0.127" layer="21"/>
+<circle x="-0.2" y="0.6" radius="0.22360625" width="0.127" layer="21"/>
+<text x="-1.3" y="2" size="1.27" layer="25">&gt;NAME</text>
+<text x="-1.3" y="-3.3" size="1.27" layer="27">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="ANT">
@@ -969,8 +1072,8 @@ L-R-GND-MIC</description>
 <description>STM32L476Rx</description>
 <pin name="VBAT" x="-55.88" y="35.56" visible="pin" length="middle" direction="pwr"/>
 <pin name="PC13" x="-55.88" y="30.48" visible="pin" length="middle"/>
-<pin name="PC14" x="-55.88" y="25.4" visible="pin" length="middle"/>
-<pin name="PC15" x="-55.88" y="20.32" visible="pin" length="middle"/>
+<pin name="PC14-OSC23_IN" x="-55.88" y="25.4" visible="pin" length="middle"/>
+<pin name="PC15-OSC32_OUT" x="-55.88" y="20.32" visible="pin" length="middle"/>
 <pin name="PH0-OSC_IN" x="-55.88" y="15.24" visible="pin" length="middle"/>
 <pin name="PH1-OSC_OUT" x="-55.88" y="10.16" visible="pin" length="middle"/>
 <pin name="NRST" x="-55.88" y="5.08" visible="pin" length="middle"/>
@@ -1012,10 +1115,10 @@ L-R-GND-MIC</description>
 <pin name="PA10" x="53.34" y="10.16" visible="pin" length="middle" rot="R180"/>
 <pin name="PA11" x="53.34" y="15.24" visible="pin" length="middle" rot="R180"/>
 <pin name="PA12" x="53.34" y="20.32" visible="pin" length="middle" rot="R180"/>
-<pin name="PA13" x="53.34" y="25.4" visible="pin" length="middle" rot="R180"/>
+<pin name="PA13-SWDIO-JTMS" x="53.34" y="25.4" visible="pin" length="middle" rot="R180"/>
 <pin name="VSS@3" x="53.34" y="30.48" visible="pin" length="middle" direction="pwr" rot="R180"/>
 <pin name="VDDUSB" x="53.34" y="35.56" visible="pin" length="middle" direction="pwr" rot="R180"/>
-<pin name="PA14" x="38.1" y="53.34" visible="pin" length="middle" rot="R270"/>
+<pin name="PA14-SWCLK-JTCK" x="38.1" y="53.34" visible="pin" length="middle" rot="R270"/>
 <pin name="PA15" x="33.02" y="53.34" visible="pin" length="middle" rot="R270"/>
 <pin name="PC10" x="27.94" y="53.34" visible="pin" length="middle" rot="R270"/>
 <pin name="PC11" x="22.86" y="53.34" visible="pin" length="middle" rot="R270"/>
@@ -1036,6 +1139,77 @@ L-R-GND-MIC</description>
 <wire x1="48.26" y1="-53.34" x2="48.26" y2="48.26" width="0.254" layer="94"/>
 <wire x1="48.26" y1="48.26" x2="-50.8" y2="48.26" width="0.254" layer="94"/>
 <text x="-12.7" y="-2.54" size="5.08" layer="94" font="vector" ratio="5">&gt;NAME</text>
+</symbol>
+<symbol name="CONN-6">
+<description>6 pin connector</description>
+<pin name="P$1" x="-7.62" y="10.16"/>
+<pin name="P$2" x="-7.62" y="7.62"/>
+<pin name="P$3" x="-7.62" y="5.08"/>
+<pin name="P$4" x="-7.62" y="2.54"/>
+<pin name="P$5" x="-7.62" y="0"/>
+<pin name="P$6" x="-7.62" y="-2.54"/>
+<wire x1="-2.54" y1="12.7" x2="7.62" y2="12.7" width="0.254" layer="94"/>
+<wire x1="7.62" y1="12.7" x2="7.62" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-5.08" x2="-2.54" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-5.08" x2="-2.54" y2="12.7" width="0.254" layer="94"/>
+<text x="-2.54" y="15.24" size="3.81" layer="94" font="vector" ratio="5">&gt;NAME</text>
+</symbol>
+<symbol name="CRYSTAL">
+<description>Crystal</description>
+<wire x1="-2.54" y1="2.54" x2="-2.54" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-2.54" x2="2.54" y2="2.54" width="0.254" layer="94"/>
+<pin name="P$1" x="-5.08" y="0" visible="off" length="short"/>
+<pin name="P$2" x="5.08" y="0" visible="off" length="short" rot="R180"/>
+<wire x1="-1.524" y1="3.556" x2="-1.524" y2="-3.556" width="0.254" layer="94"/>
+<wire x1="-1.524" y1="-3.556" x2="1.524" y2="-3.556" width="0.254" layer="94"/>
+<wire x1="1.524" y1="-3.556" x2="1.524" y2="3.556" width="0.254" layer="94"/>
+<wire x1="1.524" y1="3.556" x2="-1.524" y2="3.556" width="0.254" layer="94"/>
+<text x="-3.048" y="7.112" size="2.54" layer="94" font="vector" ratio="5">&gt;NAME</text>
+<text x="-2.794" y="-10.16" size="2.54" layer="94" font="vector" ratio="5">&gt;VALUE</text>
+</symbol>
+<symbol name="SGTL5000">
+<description>NXP SGTL5000 CODEC</description>
+<pin name="VDDA" x="-22.86" y="0" length="middle"/>
+<pin name="HP_VGND" x="-22.86" y="5.08" length="middle"/>
+<pin name="HP_R" x="-22.86" y="10.16" length="middle"/>
+<pin name="HP_L" x="-22.86" y="-5.08" length="middle"/>
+<pin name="VAG" x="-22.86" y="-10.16" length="middle"/>
+<pin name="LOUT_R" x="-2.54" y="-30.48" length="middle" rot="R90"/>
+<pin name="LOUT_L" x="2.54" y="-30.48" length="middle" rot="R90"/>
+<pin name="LIN_R" x="7.62" y="-30.48" length="middle" rot="R90"/>
+<pin name="LIN_L" x="12.7" y="-30.48" length="middle" rot="R90"/>
+<pin name="MIC" x="17.78" y="-30.48" length="middle" rot="R90"/>
+<pin name="MIC_BIAS" x="38.1" y="-10.16" length="middle" rot="R180"/>
+<pin name="VDDIO" x="38.1" y="-5.08" length="middle" rot="R180"/>
+<pin name="SYS_MCLK" x="38.1" y="0" length="middle" rot="R180"/>
+<pin name="I2S_LRCLK" x="38.1" y="5.08" length="middle" rot="R180"/>
+<pin name="I2S_SCLK" x="38.1" y="10.16" length="middle" rot="R180"/>
+<pin name="I2S_DO" x="17.78" y="27.94" length="middle" rot="R270"/>
+<pin name="I2S_DIN" x="12.7" y="27.94" length="middle" rot="R270"/>
+<pin name="CTRL_DATA" x="7.62" y="27.94" length="middle" rot="R270"/>
+<pin name="CTRL_CLK" x="2.54" y="27.94" length="middle" rot="R270"/>
+<pin name="VDDD" x="-2.54" y="27.94" length="middle" rot="R270"/>
+<wire x1="-17.78" y1="22.86" x2="-17.78" y2="-25.4" width="0.254" layer="94"/>
+<wire x1="-17.78" y1="-25.4" x2="33.02" y2="-25.4" width="0.254" layer="94"/>
+<wire x1="33.02" y1="-25.4" x2="33.02" y2="22.86" width="0.254" layer="94"/>
+<wire x1="33.02" y1="22.86" x2="-17.78" y2="22.86" width="0.254" layer="94"/>
+<text x="2.54" y="2.54" size="2.54" layer="94" font="vector" ratio="5">&gt;NAME</text>
+<text x="-2.54" y="-5.08" size="2.54" layer="94" font="vector" ratio="5">SGTL5000</text>
+<pin name="GND" x="38.1" y="-15.24" length="middle" rot="R180"/>
+</symbol>
+<symbol name="MIC5365">
+<description>MIC5365 Voltage Regulator</description>
+<pin name="VIN" x="-10.16" y="5.08" length="middle"/>
+<pin name="GND" x="-10.16" y="0" length="middle"/>
+<pin name="EN" x="-10.16" y="-5.08" length="middle"/>
+<pin name="VOUT" x="15.24" y="5.08" length="middle" rot="R180"/>
+<pin name="NC" x="15.24" y="-5.08" length="middle" rot="R180"/>
+<wire x1="-5.08" y1="7.62" x2="-5.08" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-7.62" x2="10.16" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-7.62" x2="10.16" y2="7.62" width="0.254" layer="94"/>
+<wire x1="10.16" y1="7.62" x2="-5.08" y2="7.62" width="0.254" layer="94"/>
+<text x="-5.08" y="10.16" size="2.54" layer="94" ratio="5">&gt;NAME</text>
+<text x="-5.08" y="-12.7" size="2.54" layer="94" ratio="5">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -1421,8 +1595,8 @@ Product page: http://www.st.com/en/microcontrollers/stm32l476rg.html</descriptio
 <connect gate="G$1" pin="PA10" pad="43"/>
 <connect gate="G$1" pin="PA11" pad="44"/>
 <connect gate="G$1" pin="PA12" pad="45"/>
-<connect gate="G$1" pin="PA13" pad="46"/>
-<connect gate="G$1" pin="PA14" pad="49"/>
+<connect gate="G$1" pin="PA13-SWDIO-JTMS" pad="46"/>
+<connect gate="G$1" pin="PA14-SWCLK-JTCK" pad="49"/>
 <connect gate="G$1" pin="PA15" pad="50"/>
 <connect gate="G$1" pin="PA2" pad="16"/>
 <connect gate="G$1" pin="PA3" pad="17"/>
@@ -1454,8 +1628,8 @@ Product page: http://www.st.com/en/microcontrollers/stm32l476rg.html</descriptio
 <connect gate="G$1" pin="PC11" pad="52"/>
 <connect gate="G$1" pin="PC12" pad="53"/>
 <connect gate="G$1" pin="PC13" pad="2"/>
-<connect gate="G$1" pin="PC14" pad="3"/>
-<connect gate="G$1" pin="PC15" pad="4"/>
+<connect gate="G$1" pin="PC14-OSC23_IN" pad="3"/>
+<connect gate="G$1" pin="PC15-OSC32_OUT" pad="4"/>
 <connect gate="G$1" pin="PC2" pad="10"/>
 <connect gate="G$1" pin="PC3" pad="11"/>
 <connect gate="G$1" pin="PC4" pad="24"/>
@@ -1478,6 +1652,114 @@ Product page: http://www.st.com/en/microcontrollers/stm32l476rg.html</descriptio
 <connect gate="G$1" pin="VSS@3" pad="47"/>
 <connect gate="G$1" pin="VSS@4" pad="63"/>
 <connect gate="G$1" pin="VSSA" pad="12"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CONN-TE84952-6" prefix="J">
+<description>&lt;b&gt;TE Connectivity FFC Connector - 84952-6&lt;/b&gt;
+&lt;br/&gt;
+&lt;br/&gt;
+Datasheet: http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=84952&amp;DocType=Customer+Drawing&amp;DocLang=English</description>
+<gates>
+<gate name="G$1" symbol="CONN-6" x="-2.54" y="-5.08"/>
+</gates>
+<devices>
+<device name="" package="TE84952-6-FFC">
+<connects>
+<connect gate="G$1" pin="P$1" pad="1"/>
+<connect gate="G$1" pin="P$2" pad="2"/>
+<connect gate="G$1" pin="P$3" pad="3"/>
+<connect gate="G$1" pin="P$4" pad="4"/>
+<connect gate="G$1" pin="P$5" pad="5"/>
+<connect gate="G$1" pin="P$6" pad="6"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ABS07-LR-32.768KHZ-6-T" prefix="X">
+<description>&lt;b&gt;Abracon ABS07-LR 32.768kHz Crystal
+&lt;br/&gt;
+6pF Load Cap&lt;/b&gt;
+&lt;br/&gt;
+&lt;br/&gt;
+Datasheet: http://www.abracon.com/Resonators/ABS07-LR.pdf</description>
+<gates>
+<gate name="G$1" symbol="CRYSTAL" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="ABS07-LR">
+<connects>
+<connect gate="G$1" pin="P$1" pad="1"/>
+<connect gate="G$1" pin="P$2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SGTL5000XNLA3" prefix="U">
+<description>&lt;b&gt;NXP SGTL5000 Audi CODEC&lt;/b&gt;
+&lt;br/&gt;
+&lt;br/&gt;
+Datasheet: http://www.nxp.com/assets/documents/data/en/data-sheets/SGTL5000.pdf</description>
+<gates>
+<gate name="G$1" symbol="SGTL5000" x="-10.16" y="0"/>
+</gates>
+<devices>
+<device name="" package="QFN20-NXP-.4">
+<connects>
+<connect gate="G$1" pin="CTRL_CLK" pad="19"/>
+<connect gate="G$1" pin="CTRL_DATA" pad="18"/>
+<connect gate="G$1" pin="GND" pad="21"/>
+<connect gate="G$1" pin="HP_L" pad="4"/>
+<connect gate="G$1" pin="HP_R" pad="1"/>
+<connect gate="G$1" pin="HP_VGND" pad="2"/>
+<connect gate="G$1" pin="I2S_DIN" pad="17"/>
+<connect gate="G$1" pin="I2S_DO" pad="16"/>
+<connect gate="G$1" pin="I2S_LRCLK" pad="14"/>
+<connect gate="G$1" pin="I2S_SCLK" pad="15"/>
+<connect gate="G$1" pin="LIN_L" pad="9"/>
+<connect gate="G$1" pin="LIN_R" pad="8"/>
+<connect gate="G$1" pin="LOUT_L" pad="7"/>
+<connect gate="G$1" pin="LOUT_R" pad="6"/>
+<connect gate="G$1" pin="MIC" pad="10"/>
+<connect gate="G$1" pin="MIC_BIAS" pad="11"/>
+<connect gate="G$1" pin="SYS_MCLK" pad="13"/>
+<connect gate="G$1" pin="VAG" pad="5"/>
+<connect gate="G$1" pin="VDDA" pad="3"/>
+<connect gate="G$1" pin="VDDD" pad="20"/>
+<connect gate="G$1" pin="VDDIO" pad="12"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MIC5365-1.8YC5">
+<description>&lt;b&gt;MIC5365-1.8YC5 1.8V Voltage Regulator&lt;/b&gt;
+&lt;br/&gt;
+&lt;br/&gt;
+Datasheet: http://ww1.microchip.com/downloads/en/DeviceDoc/mic5365.pdf</description>
+<gates>
+<gate name="G$1" symbol="MIC5365" x="-2.54" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT-353">
+<connects>
+<connect gate="G$1" pin="EN" pad="3"/>
+<connect gate="G$1" pin="GND" pad="2"/>
+<connect gate="G$1" pin="NC" pad="4"/>
+<connect gate="G$1" pin="VIN" pad="1"/>
+<connect gate="G$1" pin="VOUT" pad="5"/>
 </connects>
 <technologies>
 <technology name=""/>
